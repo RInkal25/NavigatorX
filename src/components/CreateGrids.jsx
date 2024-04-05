@@ -21,7 +21,7 @@ function CreateGrids(){
   const [NeighBFS, setNeighBFS] = useState([]); // This is the hook to store all the visited nodes in Dijkstra
   useEffect(function () {
     CreateGrid();
-  },10);
+  }, 10);
   // The following function will assign the grid with rows and coloumns specified 
   function CreateGrid(){
     const grid = new Array(NumOfRows);

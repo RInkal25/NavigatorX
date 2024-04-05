@@ -4,7 +4,7 @@ function App() {
   return (
     <div>
       <div  className="heading">
-        <h1>Path Finding Algorithms</h1>
+        <h1>Lets search the route</h1>
         {/* <button className = "btn reset btn-lg btn-info" >Help</button> */}
       </div>
       <CreateGrids />
